@@ -1,3 +1,5 @@
+const readline = require('readline-sync');
+
 const limit = getInput();
 
 let i, j, pattern;
@@ -12,7 +14,6 @@ for (i = 0; i < limit; i++) {
 }
 
 function getInput() {
-  const readline = require('readline-sync');
   console.log('Enter a beautiful limit: ');
   let ans = readline.question();
   return ans;
