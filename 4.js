@@ -1,4 +1,4 @@
-const mark = getInput();
+const mark = parseFloat(getInput());
 if (mark >= 50 && mark >= 0 && mark <= 100) {
   console.log('Passed');
 } else if (mark < 50 && mark >= 0) {
