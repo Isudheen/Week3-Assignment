@@ -16,6 +16,6 @@ console.log(`Sorted array ${arr2}`);
 
 function getInput() {
   console.log('Waiting for input');
-  const ans = readline.question();
+  const ans = Number(readline.question());
   return ans;
 }
