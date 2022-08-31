@@ -1,12 +1,17 @@
+'use strict';
+
 const readline = require('readline-sync');
+
+console.log('Enter the array size:');
+const size = getInput();
 
 const myArray = getArray();
 let sum;
 
 myFilter(myArray, callback);
 
-function myFilter(arr, fn) {
-  fn(arr);
+function myFilter(myArray, fn) {
+  fn(myArray);
   console.log(sum);
 }
 
